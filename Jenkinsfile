@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('scm checout') {
       steps {
-        git(url: 'https://gitlab.com/spring-boot-appplication/spring-docker.git', branch: 'master', credentialsId: '0d3b8db6-1e6b-47d5-a8d6-c12754422241')
+        git(url: 'https://github.com/Farden/spring-boot-eureka-zuul.git', branch: 'master', credentialsId: '	723d978a-be56-4bef-a1a0-a6e9c95a4bba')
       }
     }
     stage('Build') {
